@@ -5,4 +5,4 @@ jobs:
     steps:
       - checkout
       # Whatever you want to do
-      - run: cd .. && ./build_rom.sh
+      - run: ls
