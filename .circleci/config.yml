@@ -5,5 +5,4 @@ jobs:
     steps:
       - checkout
       # Whatever you want to do
-      - run: echo test > file
-      - run: cat file
+      - run: cd .. && ./build_rom.sh
