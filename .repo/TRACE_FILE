@@ -1,0 +1,108 @@
+PID: 35368 START: 1708773301122208256 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/crdroidandroid/android.git, -b, 11.0, --depth=1
+
+PID: 35368 START: 1708773301130143488 :git command /home/eazy/test2/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/eazy/test2/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 35368 END: 1708773301133186048 :git command /home/eazy/test2/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/eazy/test2/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 35368 START: 1708773301133846016 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 35368 END: 1708773301135190528 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 35368 START: 1708773301135294720 :: parsing /home/eazy/.gitconfig
+
+PID: 35368 END: 1708773301135345664 :: parsing /home/eazy/.gitconfig
+
+PID: 35368 START: 1708773301135439616 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 35368 END: 1708773301136979712 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 35368 START: 1708773301137101568 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 35368 END: 1708773301138492928 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 35368 START: 1708773301138591232 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 35368 END: 1708773301140054784 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 35368 START: 1708773301140155136 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.depth', '1'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all repo.depth 1 1>| 2>|
+
+PID: 35368 END: 1708773301141589248 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.depth', '1'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all repo.depth 1 1>| 2>|
+
+PID: 35368 START: 1708773301141704448 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/crdroidandroid/android.git'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/crdroidandroid/android.git 1>| 2>|
+
+PID: 35368 END: 1708773301143208960 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/crdroidandroid/android.git'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/crdroidandroid/android.git 1>| 2>|
+
+PID: 35368 START: 1708773301143312128 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 35368 END: 1708773301144649472 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 35368 START: 1708773301144791808 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 35368 END: 1708773301146253824 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 35368 START: 1708773301146379776 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 35368 END: 1708773301147899648 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 35368 START: 1708773301148012800 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 35368 END: 1708773301149429248 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--file', '/home/eazy/test2/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/eazy/test2/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 35368 START: 1708773301149603840 :git command /home/eazy/test2/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/11.0:refs/remotes/origin/11.0'] with debug: : export GIT_OBJECT_DIRECTORY=/home/eazy/test2/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/11.0:refs/remotes/origin/11.0 1>| 2>&1
+
+PID: 35368 END: 1708773301906081024 :git command /home/eazy/test2/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/11.0:refs/remotes/origin/11.0'] with debug: : export GIT_OBJECT_DIRECTORY=/home/eazy/test2/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/11.0:refs/remotes/origin/11.0 1>| 2>&1
+
+PID: 35368 START: 1708773301906257920 :git command /home/eazy/test2/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 35368 END: 1708773301908046848 :git command /home/eazy/test2/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 35368 START: 1708773301908379392 :git command /home/eazy/test2/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/11.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/11.0^0 1>| 2>|
+
+PID: 35368 END: 1708773301910139904 :git command /home/eazy/test2/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/11.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/11.0^0 1>| 2>|
+
+PID: 35368 START: 1708773301910361344 :git command /home/eazy/test2/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/eazy/test2/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 35368 END: 1708773301912884992 :git command /home/eazy/test2/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/eazy/test2/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 35368 START: 1708773301912947968 :: load refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 END: 1708773301913118976 :: load refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 START: 1708773301913305344 :git command /home/eazy/test2/.repo/manifests.git ['git', 'checkout', '-q', 'e5d8ba699ade9463035b3e84ce216ee8a21196db', '--'] with debug: : git checkout -q e5d8ba699ade9463035b3e84ce216ee8a21196db -- 2>|
+
+PID: 35368 END: 1708773301915529728 :git command /home/eazy/test2/.repo/manifests.git ['git', 'checkout', '-q', 'e5d8ba699ade9463035b3e84ce216ee8a21196db', '--'] with debug: : git checkout -q e5d8ba699ade9463035b3e84ce216ee8a21196db -- 2>|
+
+PID: 35368 START: 1708773301915660288 :git command /home/eazy/test2/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 35368 END: 1708773301917042176 :git command /home/eazy/test2/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 35368 START: 1708773301917176832 :: scan refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 END: 1708773301917209088 :: scan refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 START: 1708773301917315840 :: scan refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 END: 1708773301917352704 :: scan refs /home/eazy/test2/.repo/manifests.git
+
+PID: 35368 START: 1708773301917472768 :git command /home/eazy/test2/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'e5d8ba699ade9463035b3e84ce216ee8a21196db'] with debug: : git update-ref refs/heads/default e5d8ba699ade9463035b3e84ce216ee8a21196db 1>| 2>|
+
+PID: 35368 END: 1708773301919435520 :git command /home/eazy/test2/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'e5d8ba699ade9463035b3e84ce216ee8a21196db'] with debug: : git update-ref refs/heads/default e5d8ba699ade9463035b3e84ce216ee8a21196db 1>| 2>|
+
+PID: 35368 START: 1708773301919554560 :git command /home/eazy/test2/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 35368 END: 1708773301921070080 :git command /home/eazy/test2/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 35368 START: 1708773301973488128 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 35368 END: 1708773301974902528 :git command /home/eazy/test2/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 35368 END: 1708773301974950400 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/crdroidandroid/android.git, -b, 11.0, --depth=1
+
