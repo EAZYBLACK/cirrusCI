@@ -5,4 +5,5 @@ jobs:
     steps:
       - checkout
       # Whatever you want to do
-      - run: ls
+      - run: chmod +x build_rom.sh
+      - run: ./build_rom.sh
